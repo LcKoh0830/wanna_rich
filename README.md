@@ -1,4 +1,4 @@
-# wanna_rich
+# WannaRich
 
 A wealth management application
 
