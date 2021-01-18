@@ -32,6 +32,7 @@ android {
         main.java.srcDirs += 'src/main/kotlin'
     }
 
+    ndkVersion '22.0.6917172'
     defaultConfig {
         // TODO: Specify your own unique Application ID (https://developer.android.com/studio/build/application-id.html).
         applicationId "com.example.wanna_rich"
