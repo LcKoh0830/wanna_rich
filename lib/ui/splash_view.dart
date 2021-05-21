@@ -8,8 +8,10 @@ class SplashView extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       backgroundColor: backgroundColor,
-      body: SafeArea(child: buildSplashScreen(),),
-    );da
+      body: SafeArea(
+        child: buildSplashScreen(),
+      ),
+    );
   }
 
   buildSplashScreen() {
@@ -18,7 +20,8 @@ class SplashView extends StatelessWidget {
       navigateAfterSeconds: HomeView(),
       title: new Text(
         "WannaRich",
-        style: TextStyle(fontSize: 30, fontWeight: FontWeight.w600, color: Colors.white),
+        style: TextStyle(
+            fontSize: 30, fontWeight: FontWeight.w600, color: Colors.white),
       ),
       image: new Image.asset(
         'assets/icons/ic_wallet.png',
